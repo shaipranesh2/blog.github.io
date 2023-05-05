@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shaipranesh2/blog.github.io/static/css/main.c0a639e5.css",
-    "main.js": "/shaipranesh2/blog.github.io/static/js/main.a2a198a4.js",
-    "static/js/787.0ab16791.chunk.js": "/shaipranesh2/blog.github.io/static/js/787.0ab16791.chunk.js",
-    "static/media/backgi.svg": "/shaipranesh2/blog.github.io/static/media/backgi.971a6199492fea7d587b.svg",
-    "index.html": "/shaipranesh2/blog.github.io/index.html",
-    "main.c0a639e5.css.map": "/shaipranesh2/blog.github.io/static/css/main.c0a639e5.css.map",
-    "main.a2a198a4.js.map": "/shaipranesh2/blog.github.io/static/js/main.a2a198a4.js.map",
-    "787.0ab16791.chunk.js.map": "/shaipranesh2/blog.github.io/static/js/787.0ab16791.chunk.js.map"
+    "main.css": "/blog.github.io/static/css/main.876baa3b.css",
+    "main.js": "/blog.github.io/static/js/main.5b282a8c.js",
+    "static/js/787.0ab16791.chunk.js": "/blog.github.io/static/js/787.0ab16791.chunk.js",
+    "static/media/backgi.svg": "/blog.github.io/static/media/backgi.971a6199492fea7d587b.svg",
+    "index.html": "/blog.github.io/index.html",
+    "main.876baa3b.css.map": "/blog.github.io/static/css/main.876baa3b.css.map",
+    "main.5b282a8c.js.map": "/blog.github.io/static/js/main.5b282a8c.js.map",
+    "787.0ab16791.chunk.js.map": "/blog.github.io/static/js/787.0ab16791.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0a639e5.css",
-    "static/js/main.a2a198a4.js"
+    "static/css/main.876baa3b.css",
+    "static/js/main.5b282a8c.js"
   ]
 }
