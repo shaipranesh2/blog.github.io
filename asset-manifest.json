@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shaipranesh2/blog.github.io/static/css/main.c0a639e5.css",
+    "main.js": "/shaipranesh2/blog.github.io/static/js/main.a2a198a4.js",
+    "static/js/787.0ab16791.chunk.js": "/shaipranesh2/blog.github.io/static/js/787.0ab16791.chunk.js",
+    "static/media/backgi.svg": "/shaipranesh2/blog.github.io/static/media/backgi.971a6199492fea7d587b.svg",
+    "index.html": "/shaipranesh2/blog.github.io/index.html",
+    "main.c0a639e5.css.map": "/shaipranesh2/blog.github.io/static/css/main.c0a639e5.css.map",
+    "main.a2a198a4.js.map": "/shaipranesh2/blog.github.io/static/js/main.a2a198a4.js.map",
+    "787.0ab16791.chunk.js.map": "/shaipranesh2/blog.github.io/static/js/787.0ab16791.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0a639e5.css",
+    "static/js/main.a2a198a4.js"
+  ]
+}
