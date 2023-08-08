@@ -65,7 +65,36 @@ Stay tuned for more updates!!</p>
                 will use randomly drop or 1 or 2 keypose points. Also, I did not use batching due to different frames in each video, which made the training slower. I plan to make the frames uniform by oversampling frames and
                 inserting them.
             </p>
+            <h3 className="subtitle">Week-7</h3>
+            <p> After the meet with my mentor, I decided to implement the changes as asked. I failed to see how oversampling can be a great issue
+                here!! So, I went on to create a Stratified Split technique which is in scikit learn and use it to split train and test.
+                Stratified splitting technique, splits the classes with large amount of samples in the ratio specified and the smaller ones (typically about 2-10 in size)
+                in a 50-50 manner for test and train. I implemented these changes. Also, I implemented a zero padding function which pads the keypose graph with 0s making the graph size equal,
+                and allows for batching, leaving the model to learn the zeros are actually padding and not any significant value.
+                
+                But sadly, after following stratified split, I did not get the test scores I got previously and it was very low like about 2-3%. Thanks
+                to my mentor for rightly pointing out, and my training score was about 80%, and clearly my model was overfitting here.
 
+            </p>
+            <h3 className="subtitle">Week-8</h3>
+            <p>
+                This week, I started researching some ways to reduce overfitting, I tried L2 regularisation and dropout. Also, I 
+                limited the classes to the ones which are having more than 20 samples. But unfortunately, I got the same results with
+                test score at ~3%. :(
+                
+                And I could not work mostly due to heavy rains and prolonged powercut in the region I live in. But have ideas to implement
+                an embeddding layer which differentiates the STGCN in a space and classifies them.
+
+            </p>
+                <h3 className="subtitle">Week-9</h3>
+            <p> This week I implemented cosine simalrity loss to create an embedddingl layer for the model. Also, decreased the complexity
+                of the model by reducing the input features restricting them to face and hand body keypose points and decreasing the 
+                model layer size. I tried out with different learning rates, at first 10 epochs, the model's train and test scores gradually
+                rise to about 7-8% and loss slowly decreases, but after 10 epochs the training score increases rapidly with no change from
+                test scores, making the model overfit again. :( 
+                
+                I have to still see a way to avoid overfitting and will update this week's entry till this week.
+            </p>
         </div>
     )
 }
