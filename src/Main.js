@@ -93,7 +93,10 @@ Stay tuned for more updates!!</p>
                 rise to about 7-8% and loss slowly decreases, but after 10 epochs the training score increases rapidly with no change from
                 test scores, making the model overfit again. :( 
                 
-                I have to still see a way to avoid overfitting and will update this week's entry till this week.
+                I tried using L2 regularisation and found both training and testing to be close in accuracy and in loss terms, but did not get
+                it to bothe increase beyond a point.... I have attached the training and testing logs in the repo along with the accuracy matrix.
+
+                Will try to further optimize the parameters or try with the old GSoC data and see the results.
             </p>
         </div>
     )
